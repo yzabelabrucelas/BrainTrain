@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:background="@drawable/bg"
+    android:layout_height="fill_parent"
+    tools:context="com.example.franchette.braintrain.Credits">
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_height="120dp"
+            android:layout_marginTop="30dp"
+            android:layout_width="120dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/ico"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/prometheus"
+            android:text="Developers"
+            android:layout_marginTop="30dp"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/circuitry"
+            android:text="Ana Yzabela Marie Brucelas"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/circuitry"
+            android:text="Hearthly Torepalma"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/prometheus"
+            android:text="Audio"
+            android:layout_marginTop="30dp"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/circuitry"
+            android:text="Geometry Dash"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/prometheus"
+            android:text="Special Thanks"
+            android:layout_marginTop="30dp"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/circuitry"
+            android:text="Sir Jeric Lajada"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/prometheus"
+            android:text="Inspired by the game"
+            android:layout_marginTop="30dp"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/circuitry"
+            android:text="Text Twist"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/circuitry"
+            android:text="Stampede"
+            android:layout_marginTop="5dp"
+            android:textColor="#ffffff"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/circuitry"
+            android:text="4 Pics 1 Word "
+            android:layout_marginTop="5dp"
+            android:textColor="#ffffff"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/circuitry"
+            android:text="Geometry Dash"
+            android:layout_marginTop="5dp"
+            android:textColor="#ffffff"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/prometheus"
+            android:text="Brain Train"
+            android:layout_marginTop="30dp"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/circuitry"
+            android:text="Copyright 2018"
+            android:layout_marginTop="5dp"
+            android:textColor="#ffffff"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"/>
+
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/rustler"
+            android:onClick="back"
+            android:text="BACK"
+            android:id="@+id/back"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+
+</ScrollView>
+
+</RelativeLayout>
